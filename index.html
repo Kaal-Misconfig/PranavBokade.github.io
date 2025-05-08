@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+          rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+
+    <!-- CSS & JS -->
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./index.js" defer></script>
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kaal"/>
+    <meta name="keywords" content="KaalMisconfig"/>
+    <title>Kaal's DarkGit</title>
+
+    <!-- Icons -->
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-touch-icon-57x57.png">
+</head>
+<body>
+<main>
+    <!-- Hero Header -->
+    <header id="heroHeader" class="hero-header">
+        <nav id="navBar" class="nav">
+            <div class="container">
+                <button type="button" id="hamburgerBtn" class="nav__hamburger-btn">
+                    <span class="nav__hamburger-top"></span>
+                    <span class="nav__hamburger-center"></span>
+                    <span class="nav__hamburger-bottom"></span>
+                </button>
+                <ul id="navList" class="nav__list">
+                    <li class="nav__list-item">
+                        <a class="nav__list-link active" href="#heroHeader">&lt;Home &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#services">&lt;Skills &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#works">&lt;Works &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#contact">&lt;Contact &sol;&gt;</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="header__container container">
+            <div class="header__left">
+                <span class="header__sup-text">Hello There! I am an</span>
+                <h1 class="header__title">
+                    <span class="header__title-1" data-role="OffenSive">OffenSive</span>
+                    <span class="header__title-2" data-role="Pentester">Pentester</span>
+                </h1>
+                <p class="header__msg">I’m Pranav aka Kaal, an 18-year-old hacker obsessed with breaking systems, building tools, and mastering red teaming. I live in terminals, thrive in exploits, and breathe packets. From HTB to OSEP, I'm not just learning — I'm dominating.
+
+Let’s play offense</p>
+                <a href="https://github.com/kaal-misconfig" class="header__resume">HACK3R</a>
+            </div>
+            <div class="header__right">
+                <img src="https://images.steamusercontent.com/ugc/854976916434675605/0A7FF9FDC45305AB9F1B4F51DCAC315274B28F96/?imw=512&imh=431&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Header section illustration"/>
+            </div>
+          
+        </section>
+        <span class="header__bg"></span>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="section container">
+        <h2 class="section__title">Skills</h2>
+
+        <div class="service-cards">
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://www.offsec.com/images/icons/offsec-logo-icon.svg" alt="Support Illustration"/>
+                </span>
+                <h3 class="service-card__title">OffSec</h3>
+                <p class="service-card__msg">I love offensive security! OffSec isn’t a course to me — it’s a mindset. Try harder isn’t a motto. It’s default mode</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://img.icons8.com/color/512/kali-linux.png" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">Kali Linux</h3>
+                <p class="service-card__msg">I weaponize Kali for real-world red teaming, exploit dev, wireless attacks, and stealthy post-exploitation, Not just a user — a power operator</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://www.svgrepo.com/show/374056/rust.svg" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">RUST</h3>
+                <p class="service-card__msg"> I use Rust to build high-performance offensive tools with zero compromise on safety. Memory-safe malware, custom C2 implants, and red team utilities — all forged in Rust</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">Python</h3>
+                <p class="service-card__msg">Python is my go-to for rapid offensive tooling — from automation scripts to custom payloads, recon bots, and API-based exploits. Clean code, dirty results</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Wireshark_icon_new.png" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">WireShark</h3>
+                <p class="service-card__msg">I dissect packets like autopsies — decoding protocols, spotting anomalies, and tracing intrusions byte by byte. Wireshark isn’t just a tool, it’s my x-ray vision</p>
+
+
+
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="https://img.icons8.com/?size=192&id=PW0ChfedZvTh&format=png" alt="Deploy Illustration"/>
+                </span>
+                <h3 class="service-card__title">MetaSploit</h3>
+                <p class="service-card__msg">Metasploit is my battlefield — I craft custom payloads, chain exploits, evade AV, and pivot like a ghost. From recon to post-ex, I don’t run modules — I weaponize them</p>
+                <span class="service-card__bg"></span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sample Works -->
+    <section id="works" class="section container">
+        <h2 class="section__title">My Works</h2>
+        <div class="works">
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="https://yt3.googleusercontent.com/2Tq9apgiHSV7NrCKzgRMbm-AABWJJXuyWMY_7MpQlVdvemqJRWcGegVq0G4e9xHCl8HcbQs_Ag=s900-c-k-c0x00ffffff-no-rj" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">HTB WriteUPS</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">CTF</span>
+                    <span class="work__badge">Labs</span>
+                    <span class="work__badge">Enterprise</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="https://res.cloudinary.com/di2vaxvhl/image/upload/v1547679898/Technical_Images_AP_ESP8266__1.jpg" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Currently Working On ESP8266</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">C</span>
+                    <span class="work__badge">C++</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="https://avatars.githubusercontent.com/u/204190707?v=4" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Working on Kernels</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">C</span>
+                    <span class="work__badge">C#</span>
+                    <span class="work__badge">Rust</span>
+                </span>
+                </div>
+            </article>
+                                   <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="https://miro.medium.com/v2/resize:fit:1280/1*MptLjygMO184yyWqmg4PUA.gif" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">Work in Progress</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">Python</span>
+                    <span class="work__badge">Rust</span>
+                    <span class="work__badge">Bash</span>
+                </span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+        <h2 class="section__title">Let's Connect!</h2>
+        <div class="contact">
+            <form class="contact__form">
+                <div class="contact__field-wrapper">
+                    <label for="contactNameTxt">Name:</label>
+                    <input id="contactNameTxt" type="text" placeholder="What's your name?"/>
+                </div>
+                <div class="contact__field-wrapper">
+                    <label for="contactDescriptionTxt">Message:</label>
+                    <textarea id="contactDescriptionTxt" placeholder="Lets connect!"></textarea>
+                </div>
+                <a href="https://mail.google.com/" class="header__resume">Submit</a>
+                
+            </form>
+            <span class="contact__illustration">
+                <img src="./assets/illustrations/connect.svg" alt="Group of people connecting with each other"/>
+            </span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Kaal-Misconfig ❤️ <a href="https://github.com/kaal-misconfig" target="_blank" class="footer__link">Pranav Bokade</a>
+    </footer>
+</main>
+</body>
+</html>
